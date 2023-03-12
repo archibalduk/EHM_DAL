@@ -6,11 +6,11 @@ EHM DAL is an unofficial data abstraction layer for Eastside Hockey Manger 1 dat
 ```
 // The following code will open and process a database
 auto db{ehm_db::Database()};
-return db.read("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Eastside Hockey Manager\\data\\database\\database.db");
+db.read("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Eastside Hockey Manager\\data\\database\\database.db");
 
 // The following code will open and process a saved game
 auto sav{ehm_sav::SavedGame()};
-return sav.read("C:\\Users\\archibalduk\\Documents\\Sports Interactive\\EHM\\games\\Test.sav");
+sav.read("C:\\Users\\archibalduk\\Documents\\Sports Interactive\\EHM\\games\\Test.sav");
 ```
 
 EHM DAL's database table classes inherit from [QAbstractTableModel](https://doc.qt.io/qt-6/qabstracttablemodel.html) and is therefore compatible [Qt's model/view architecture](https://doc.qt.io/qt-6/model-view-programming.html). This means that database tables can be easily assigned to Qt's view widgets such as [QTableView](https://doc.qt.io/qt-6/qtableview.html).
