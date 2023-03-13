@@ -31,7 +31,7 @@ Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html
 3. Few details of EHM saved game tables are known and will therefore require the user to figure out the structure and implement their own code.
 
 ## System Requirements
-* [Qt6.4.2](https://www.qt.io/download-open-source) (or higher) (msvc 2019 build or higher)
+* [Qt 6.4.2](https://www.qt.io/download-open-source) (or higher) (msvc 2019 build or higher)
 * [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/) or [Microsoft Visual Studio Build Tools 2022](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)
 
 ## Author
