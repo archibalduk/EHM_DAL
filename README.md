@@ -5,11 +5,11 @@ EHM DAL is an unofficial data abstraction layer for Eastside Hockey Manger 1 dat
 
 ```
 // The following code will open and process a database
-auto db{ehm_db::Database()};
+auto db{ehm_dal::Database()};
 db.read("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Eastside Hockey Manager\\data\\database\\database.db");
 
 // The following code will open and process a saved game
-auto sav{ehm_sav::SavedGame()};
+auto sav{ehm_dal::SavedGame()};
 sav.read("C:\\Users\\archibalduk\\Documents\\Sports Interactive\\EHM\\games\\Test.sav");
 ```
 
@@ -31,7 +31,7 @@ Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html
 3. Few details of EHM saved game tables are known and will therefore require the user to figure out the structure and implement their own code.
 
 ## System Requirements
-* [Qt 6.4.2](https://www.qt.io/download-open-source) (or higher) (msvc 2019 build or higher)
+* [Qt 6.6.2](https://www.qt.io/download-open-source) (or higher) (msvc 2019 build or higher)
 * [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/) or [Microsoft Visual Studio Build Tools 2022](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)
 
 ## Author
