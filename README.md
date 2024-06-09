@@ -13,7 +13,7 @@ auto sav{ehm_dal::SavedGame()};
 sav.read("C:\\Users\\archibalduk\\Documents\\Sports Interactive\\EHM\\games\\Test.sav");
 ```
 
-EHM DAL's database table classes inherit from [QAbstractTableModel](https://doc.qt.io/qt-6/qabstracttablemodel.html) and is therefore compatible [Qt's model/view architecture](https://doc.qt.io/qt-6/model-view-programming.html). This means that database tables can be easily assigned to Qt's view widgets such as [QTableView](https://doc.qt.io/qt-6/qtableview.html).
+EHM DAL's database table classes inherit from [QAbstractTableModel](https://doc.qt.io/qt-6/qabstracttablemodel.html) and are therefore compatible [Qt's model/view architecture](https://doc.qt.io/qt-6/model-view-programming.html). This means that database tables can be easily assigned to Qt's view widgets such as [QTableView](https://doc.qt.io/qt-6/qtableview.html).
 
 Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html) or EHM DAL's Pointer class.
 
