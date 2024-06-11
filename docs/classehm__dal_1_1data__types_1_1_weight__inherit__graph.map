@@ -1,0 +1,5 @@
+<map id="ehm_dal::data_types::Weight" name="ehm_dal::data_types::Weight">
+<area shape="rect" id="node1" title="The Weight class stores weight in kilograms." alt="" coords="5,181,148,221"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1data__types_1_1_attribute.html" title=" " alt="" coords="5,93,148,133"/>
+<area shape="rect" id="node3" href="$classehm__dal_1_1data__types_1_1_data_type.html" title="The DataType class is a template class for all C++ integral and floating point data types." alt="" coords="5,5,148,45"/>
+</map>

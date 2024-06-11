@@ -17,6 +17,8 @@ EHM DAL's database table classes inherit from [QAbstractTableModel](https://doc.
 
 Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html) or EHM DAL's Pointer class.
 
+**EHM DAL is presently a work in progress and should be considered alpha quality.**
+
 **Visit the [EHM DAL wiki](https://github.com/archibalduk/EHM_DAL/wiki) for class references, guides and tutorials.**
 
 ## Features

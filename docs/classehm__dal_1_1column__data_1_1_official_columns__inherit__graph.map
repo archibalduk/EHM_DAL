@@ -1,0 +1,5 @@
+<map id="ehm_dal::column_data::OfficialColumns" name="ehm_dal::column_data::OfficialColumns">
+<area shape="rect" id="node1" title="The OfficialColumns class sets out the column indexes for the ehm_dal::schema::Official schema." alt="" coords="5,181,159,221"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1column__data_1_1_person_columns.html" title=" " alt="" coords="5,93,159,133"/>
+<area shape="rect" id="node3" href="$classehm__dal_1_1column__data_1_1_column_data.html" title="The ColumnData class represents a container of ehm_dal::column_data::Column and attributes relating t..." alt="" coords="5,5,159,45"/>
+</map>

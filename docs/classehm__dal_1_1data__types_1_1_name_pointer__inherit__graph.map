@@ -1,0 +1,5 @@
+<map id="ehm_dal::data_types::NamePointer" name="ehm_dal::data_types::NamePointer">
+<area shape="rect" id="node1" title="The NamePointer class acts as a pointer to a Name table. The name string is buffered and is then resy..." alt="" coords="463,42,605,82"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1data__types_1_1_pointer.html" title="The Pointer class represents a pointer to a table item." alt="" coords="272,42,415,82"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,224,119"/>
+</map>

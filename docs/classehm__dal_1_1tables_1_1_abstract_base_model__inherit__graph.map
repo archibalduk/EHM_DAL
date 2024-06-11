@@ -1,0 +1,13 @@
+<map id="ehm_dal::tables::AbstractBaseModel" name="ehm_dal::tables::AbstractBaseModel">
+<area shape="rect" id="node1" title=" " alt="" coords="200,63,371,103"/>
+<area shape="rect" id="node3" href="$classehm__dal_1_1flags_1_1_flag_table.html" title=" " alt="" coords="419,41,589,67"/>
+<area shape="rect" id="node4" href="$classehm__dal_1_1tables_1_1_abstract_table.html" title="The Table class represents a database table and provides access to rows of data." alt="" coords="419,91,589,131"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,71,152,96"/>
+<area shape="rect" id="node5" href="$classehm__dal_1_1tables_1_1_game_table.html" title=" " alt="" coords="652,5,871,60"/>
+<area shape="rect" id="node6" href="$classehm__dal_1_1tables_1_1_game_table.html" title=" " alt="" coords="637,84,885,139"/>
+<area shape="rect" id="node7" href="$classehm__dal_1_1tables_1_1_game_table.html" title=" " alt="" coords="667,163,855,217"/>
+<area shape="rect" id="node8" href="$classehm__dal_1_1tables_1_1_game_child_table.html" title=" " alt="" coords="933,62,1181,131"/>
+<area shape="rect" id="node9" href="$classehm__dal_1_1saved__game_1_1_saved_game_table.html" title="The SavedGameTable class is a template sub&#45;class of GameTable and is intended for use as a saved game..." alt="" coords="982,155,1133,225"/>
+<area shape="rect" id="node10" href="$classehm__dal_1_1tables_1_1_game_child_table.html" title="The GameChildTable class is a model for child data of a parent table. Each parent item has a single c..." alt="" coords="949,249,1166,318"/>
+<area shape="rect" id="node11" href="$classehm__dal_1_1tables_1_1_game_child_tree_table.html" title="The GameChildTreeTable class is a model for child data of a parent table. Each parent item can have m..." alt="" coords="1229,249,1445,318"/>
+</map>

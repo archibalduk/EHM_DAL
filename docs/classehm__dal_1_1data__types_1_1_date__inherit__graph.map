@@ -1,0 +1,4 @@
+<map id="ehm_dal::data_types::Date" name="ehm_dal::data_types::Date">
+<area shape="rect" id="node1" title="The Date class acts as a QDate wrapper for EHM format SI_Date." alt="" coords="5,93,148,133"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1data__types_1_1_abstract_data_type.html" title="The AbstractDataType class provides common virtual functions for all integral game data types." alt="" coords="5,5,148,45"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ehm_dal::column_data::InjuryColumns" name="ehm_dal::column_data::InjuryColumns">
+<area shape="rect" id="node1" title="The InjuryColumns class sets out the column indexes for the ehm_dal::schema::Injury schema." alt="" coords="5,93,159,133"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1column__data_1_1_column_data.html" title="The ColumnData class represents a container of ehm_dal::column_data::Column and attributes relating t..." alt="" coords="5,5,159,45"/>
+</map>

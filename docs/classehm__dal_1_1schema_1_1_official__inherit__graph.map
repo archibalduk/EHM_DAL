@@ -1,0 +1,6 @@
+<map id="ehm_dal::schema::Official" name="ehm_dal::schema::Official">
+<area shape="rect" id="node1" title=" " alt="" coords="11,255,183,280"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1schema_1_1_person.html" title=" " alt="" coords="9,181,184,207"/>
+<area shape="rect" id="node3" href="$classehm__dal_1_1schema_1_1_abstract_uid_table_item.html" title="The AbstractUidTableItem class represents a row in a Table with id and uid fields." alt="" coords="5,93,188,133"/>
+<area shape="rect" id="node4" href="$classehm__dal_1_1schema_1_1_abstract_table_item.html" title="The AbstractTableItem class represents a row in a Table with an id field." alt="" coords="5,5,188,45"/>
+</map>

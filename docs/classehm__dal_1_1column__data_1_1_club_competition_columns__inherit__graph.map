@@ -1,0 +1,4 @@
+<map id="ehm_dal::column_data::ClubCompetitionColumns" name="ehm_dal::column_data::ClubCompetitionColumns">
+<area shape="rect" id="node1" title="The ClubCompetitionColumns class sets out the column indexes for the ehm_dal::schema::ClubCompetition..." alt="" coords="5,93,181,133"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1column__data_1_1_column_data.html" title="The ColumnData class represents a container of ehm_dal::column_data::Column and attributes relating t..." alt="" coords="17,5,170,45"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ehm_dal::file_io::DatabaseFileManager" name="ehm_dal::file_io::DatabaseFileManager">
+<area shape="rect" id="node1" title="The DatabaseFileManager class provides simple read and write access to a database." alt="" coords="5,93,180,133"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1file__io_1_1_abstract_file_manager.html" title="The AbstractFileManager class is a base class providing simple read and write file access to database..." alt="" coords="8,5,177,45"/>
+</map>

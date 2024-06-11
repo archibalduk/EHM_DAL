@@ -1,0 +1,22 @@
+<map id="ehm_dal::schema::AbstractUidTableItem" name="ehm_dal::schema::AbstractUidTableItem">
+<area shape="rect" id="node1" title="The AbstractUidTableItem class represents a row in a Table with id and uid fields." alt="" coords="236,384,419,424"/>
+<area shape="rect" id="node3" href="$classehm__dal_1_1schema_1_1_abstract_validated_uid_table_item.html" title="The AbstractValidatedUidTableItem is an AbstractUidTableItem with a validator." alt="" coords="489,5,672,45"/>
+<area shape="rect" id="node4" href="$classehm__dal_1_1schema_1_1_arena.html" title=" " alt="" coords="497,70,664,95"/>
+<area shape="rect" id="node5" href="$classehm__dal_1_1schema_1_1_city.html" title=" " alt="" coords="503,119,659,145"/>
+<area shape="rect" id="node6" href="$classehm__dal_1_1schema_1_1_club.html" title=" " alt="" coords="501,169,660,194"/>
+<area shape="rect" id="node7" href="$classehm__dal_1_1schema_1_1_club_competition.html" title=" " alt="" coords="467,218,695,243"/>
+<area shape="rect" id="node8" href="$classehm__dal_1_1schema_1_1_colour.html" title=" " alt="" coords="495,267,666,293"/>
+<area shape="rect" id="node9" href="$classehm__dal_1_1schema_1_1_continent.html" title=" " alt="" coords="487,317,675,342"/>
+<area shape="rect" id="node10" href="$classehm__dal_1_1schema_1_1_currency.html" title=" " alt="" coords="488,366,673,391"/>
+<area shape="rect" id="node11" href="$classehm__dal_1_1schema_1_1_draft.html" title=" " alt="" coords="501,415,661,441"/>
+<area shape="rect" id="node12" href="$classehm__dal_1_1schema_1_1_injury.html" title=" " alt="" coords="499,465,663,490"/>
+<area shape="rect" id="node13" href="$classehm__dal_1_1schema_1_1_name.html" title=" " alt="" coords="497,514,664,539"/>
+<area shape="rect" id="node14" href="$classehm__dal_1_1schema_1_1_nation.html" title=" " alt="" coords="495,563,666,589"/>
+<area shape="rect" id="node15" href="$classehm__dal_1_1schema_1_1_person.html" title=" " alt="" coords="493,613,668,638"/>
+<area shape="rect" id="node18" href="$classehm__dal_1_1schema_1_1_staff_award.html" title=" " alt="" coords="483,662,678,687"/>
+<area shape="rect" id="node19" href="$classehm__dal_1_1schema_1_1_stage_name.html" title=" " alt="" coords="480,711,681,737"/>
+<area shape="rect" id="node20" href="$classehm__dal_1_1schema_1_1_state.html" title=" " alt="" coords="499,761,663,786"/>
+<area shape="rect" id="node2" href="$classehm__dal_1_1schema_1_1_abstract_table_item.html" title="The AbstractTableItem class represents a row in a Table with an id field." alt="" coords="5,384,188,424"/>
+<area shape="rect" id="node16" href="$classehm__dal_1_1schema_1_1_official.html" title=" " alt="" coords="743,589,915,614"/>
+<area shape="rect" id="node17" href="$classehm__dal_1_1schema_1_1_staff.html" title=" " alt="" coords="749,638,908,663"/>
+</map>
