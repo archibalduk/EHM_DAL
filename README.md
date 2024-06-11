@@ -19,7 +19,8 @@ Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html
 
 **EHM DAL is presently a work in progress and should be considered alpha quality.**
 
-**Visit the [EHM DAL wiki](https://github.com/archibalduk/EHM_DAL/wiki) for class references, guides and tutorials.**
+**Visit the [EHM DAL documentation](https://archibalduk.github.io/EHM_DAL/annotated.html) for details of the various classes and functions.**
+**Visit the [EHM DAL wiki](https://github.com/archibalduk/EHM_DAL/wiki) for guides and tutorials.**
 
 ## Features
 1. Read-only access to the EHM database and saved games;
