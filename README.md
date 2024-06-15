@@ -41,7 +41,7 @@ Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html
 ## Author
 [@archibalduk](https://www.github.com/archibalduk)
 
-# Credits
+## Credits
 EHM DAL uses [QXlsx by j2doll](https://github.com/QtExcel/QXlsx). QXlsx is licensed under the MIT license.
 
 ## License
