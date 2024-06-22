@@ -3,6 +3,7 @@
 #include "lib/ehm_dal/include/database/column_data/club_competition_columns.h"
 #include "lib/ehm_dal/include/database/database.h"
 #include "lib/ehm_dal/include/database/file_io/database_file_manager.h"
+#include "lib/ehm_dal/include/library_info.h"
 #include "lib/ehm_dal/include/saved_game/file_io/saved_game_file_manager.h"
 #include "lib/ehm_dal/include/spreadsheet/spreadsheet.h"
 #include "lib/ehm_dal/include/tables/abstract_table.h"
@@ -13,7 +14,7 @@
 
 /* MAIN WINDOW CONSTRUCTOR
  * This function constructs the main window and adds the following to the window:
- * 1. A menu bar with a drop-down menu allowing users to open a database or saved game; and
+ * 1. A menu bar with a drop-down menu allowing users to (i) open a database or saved game and (ii) export table data to a spreadsheet; and
  * 2. A QTableView widget which will show the selected database table within the window.
  */
 MainWindow::MainWindow(QWidget *parent)
@@ -21,7 +22,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     /// Window attributes ///
     setMinimumSize(1200, 600);
-    setWindowTitle("Simple Table Viewer");
+    setWindowTitle(QString("Simple Table Viewer - %1 %2")
+                       .arg(ehm_dal::library_info::libraryShortName(),
+                            ehm_dal::library_info::libraryVersion()));
 
     /// Menu bar ///
     menu_bar_ = new QMenuBar(this);
@@ -118,7 +121,6 @@ void MainWindow::exportSpreadsheetSelectedColumns()
 {
     // This is a very similar function to `exportSpreadsheet()` but with the key difference that here we generate a list of
     // columns we want to export. This will result in just those selected columns being exported.
-
     ehm_dal::spreadsheet::Spreadsheet spreadsheet;
 
     ehm_dal::Database db;

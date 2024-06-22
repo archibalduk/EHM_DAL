@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classehm__dal_1_1data__types_1_1_string.html#ae5ee99dc52e9297760916fd0b7978ef0":[2,0,0,1,12,0],
 "classehm__dal_1_1data__types_1_1_string.html#aff7b8837b56b12089a2f699c0ef36d03":[2,0,0,1,12,3],
 "classehm__dal_1_1data__types_1_1_weight.html":[2,0,0,1,13],
 "classehm__dal_1_1data__types_1_1_year.html":[2,0,0,1,14],
@@ -34,6 +35,9 @@ var NAVTREEINDEX1 =
 "classehm__dal_1_1file__io_1_1_database_file_manager.html":[2,0,0,4,1],
 "classehm__dal_1_1file__io_1_1_database_file_manager.html#a8546901b3efc822af68451756f869819":[2,0,0,4,1,1],
 "classehm__dal_1_1file__io_1_1_database_file_manager.html#af4de3105686b08b44e1765654b13715c":[2,0,0,4,1,0],
+"classehm__dal_1_1file__io_1_1_saved_game_file_manager.html":[2,0,0,4,2],
+"classehm__dal_1_1file__io_1_1_saved_game_file_manager.html#a1810a7ca435099e88625f2e9187406e3":[2,0,0,4,2,1],
+"classehm__dal_1_1file__io_1_1_saved_game_file_manager.html#a2a7cc73dc8c71360c5e701143ca47bdc":[2,0,0,4,2,0],
 "classehm__dal_1_1flags_1_1_flag.html":[2,0,0,5,0],
 "classehm__dal_1_1flags_1_1_flag_database.html":[2,0,0,5,1],
 "classehm__dal_1_1flags_1_1_flag_table.html":[2,0,0,5,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "classehm__dal_1_1schema_1_1_staff_award.html#aa66b30512dc51a1083eb7a153b1bb7c0":[2,0,0,7,33,4],
 "classehm__dal_1_1schema_1_1_staff_award.html#aa94c1557938a14c898d231903a0f4d7f":[2,0,0,7,33,6],
 "classehm__dal_1_1schema_1_1_staff_award.html#aac5c2ffe9420617442a46b7eabb35adc":[2,0,0,7,33,1],
-"classehm__dal_1_1schema_1_1_staff_award.html#ac75bfdc7e83096b773c95f10bbe8a0d0":[2,0,0,7,33,3],
-"classehm__dal_1_1schema_1_1_staff_award.html#ad06a3ecd2b53843fabdafd81ed5c27e8":[2,0,0,7,33,5],
-"classehm__dal_1_1schema_1_1_staff_award_history.html":[2,0,0,7,34],
-"classehm__dal_1_1schema_1_1_staff_award_history.html#a74fe4204d24d52fa6aad421ba58ff07c":[2,0,0,7,34,0],
-"classehm__dal_1_1schema_1_1_staff_award_history.html#a95104a583a3c435380e23658bc91f729":[2,0,0,7,34,2]
+"classehm__dal_1_1schema_1_1_staff_award.html#ac75bfdc7e83096b773c95f10bbe8a0d0":[2,0,0,7,33,3]
 };

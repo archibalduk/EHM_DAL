@@ -11,8 +11,9 @@ var NAVTREEINDEX0 =
 "classehm__dal_1_1_database.html#ad9200aad9c639e6e82fbe6f7b98a7066":[2,0,0,13,6],
 "classehm__dal_1_1_saved_game.html":[2,0,0,14],
 "classehm__dal_1_1_saved_game.html#a08b047bbf3ecb95f8aac9e6a93044e65":[2,0,0,14,0],
-"classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582":[2,0,0,14,3],
-"classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc":[2,0,0,14,2],
+"classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582":[2,0,0,14,4],
+"classehm__dal_1_1_saved_game.html#a6e6873e437990371b3d6c493f73e12f0":[2,0,0,14,2],
+"classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc":[2,0,0,14,3],
 "classehm__dal_1_1_saved_game.html#aa43dfcf7aae0a5c538b7a8ecd151eb3a":[2,0,0,14,1],
 "classehm__dal_1_1column__data_1_1_affiliation_columns.html":[2,0,0,0,0],
 "classehm__dal_1_1column__data_1_1_arena_columns.html":[2,0,0,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classehm__dal_1_1data__types_1_1_string.html#a8f046802f9eaea8d7d28c1739a8a58b8":[2,0,0,1,12,11],
 "classehm__dal_1_1data__types_1_1_string.html#ab9b7fd6887f8e1eafa4963c8cee7c95f":[2,0,0,1,12,2],
 "classehm__dal_1_1data__types_1_1_string.html#ada8a49f852b874f92ab8e7dfc132216d":[2,0,0,1,12,7],
-"classehm__dal_1_1data__types_1_1_string.html#ae40743cfaf3aa49b62ea0f99e9767558":[2,0,0,1,12,1],
-"classehm__dal_1_1data__types_1_1_string.html#ae5ee99dc52e9297760916fd0b7978ef0":[2,0,0,1,12,0]
+"classehm__dal_1_1data__types_1_1_string.html#ae40743cfaf3aa49b62ea0f99e9767558":[2,0,0,1,12,1]
 };

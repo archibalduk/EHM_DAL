@@ -1,12 +1,12 @@
 var hierarchy =
 [
     [ "ehm_dal::data_types:: AbstractPointer", null, [
+      [ "ehm_dal::flags::Flag< T_DataType >", "classehm__dal_1_1flags_1_1_flag.html", null ]
+    ] ],
+    [ "ehm_dal::data_types:: AbstractPointer", null, [
       [ "ehm_dal::data_types::Pointer", "classehm__dal_1_1data__types_1_1_pointer.html", [
         [ "ehm_dal::data_types::NamePointer", "classehm__dal_1_1data__types_1_1_name_pointer.html", null ]
       ] ]
-    ] ],
-    [ "ehm_dal::data_types:: AbstractPointer", null, [
-      [ "ehm_dal::flags::Flag< T_DataType >", "classehm__dal_1_1flags_1_1_flag.html", null ]
     ] ],
     [ "ehm_dal::schema::AbstractClubRecord", "classehm__dal_1_1schema_1_1_abstract_club_record.html", [
       [ "ehm_dal::schema::ClubRecordItem", "classehm__dal_1_1schema_1_1_club_record_item.html", null ],
@@ -17,7 +17,8 @@ var hierarchy =
       [ "ehm_dal::data_types::String", "classehm__dal_1_1data__types_1_1_string.html", null ]
     ] ],
     [ "ehm_dal::file_io::AbstractFileManager", "classehm__dal_1_1file__io_1_1_abstract_file_manager.html", [
-      [ "ehm_dal::file_io::DatabaseFileManager", "classehm__dal_1_1file__io_1_1_database_file_manager.html", null ]
+      [ "ehm_dal::file_io::DatabaseFileManager", "classehm__dal_1_1file__io_1_1_database_file_manager.html", null ],
+      [ "ehm_dal::file_io::SavedGameFileManager", "classehm__dal_1_1file__io_1_1_saved_game_file_manager.html", null ]
     ] ],
     [ "ehm_dal::data_types::AbstractPointer< T_IdDataType, T_TableIndex, T_Table >", "classehm__dal_1_1data__types_1_1_abstract_pointer.html", null ],
     [ "ehm_dal::schema::AbstractTableItem", "classehm__dal_1_1schema_1_1_abstract_table_item.html", [

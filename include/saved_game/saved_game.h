@@ -29,6 +29,12 @@ public:
      */
     ~SavedGame();
 
+    // Close saved game
+    /*!
+     * \brief Clear all of the saved game tables
+     */
+    void clearAll();
+
     // File i/o
     /*!
      * \brief Reads the .sav file at `file_path` and parses the saved game and the Database within.

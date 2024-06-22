@@ -1,16 +1,16 @@
 # EHM DAL: A data abstraction layer for Eastside Hockey Manager 1
-![GitHub last commit](https://img.shields.io/github/last-commit/archibalduk/EHM_DAL?style=flat-square) ![GitHub](https://img.shields.io/github/license/archibalduk/EHM_DAL?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/archibalduk/EHM_DAL?style=flat-square)
+![GitHub tag](https://img.shields.io/github/v/tag/archibalduk/EHM_DAL) ![GitHub last commit](https://img.shields.io/github/last-commit/archibalduk/EHM_DAL?style=flat-square) ![GitHub](https://img.shields.io/github/license/archibalduk/EHM_DAL?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/archibalduk/EHM_DAL?style=flat-square)
 
 EHM DAL is an unofficial data abstraction layer for Eastside Hockey Manger 1 databases and saved games which you can integrate into your own Qt/C++ projects. EHM DAL provides a library of functions which enable an EHM database or saved game to be loaded and parsed without needing to code any of your own file i/o functions or any database structures. Parsing a database or saved game is as simple as integrating the EHM DAL library into your Qt/C++ project and then adding the following code:
 
 ```
 // The following code will open and process a database
-auto db{ehm_dal::Database()};
-db.read("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Eastside Hockey Manager\\data\\database\\database.db");
+auto db_manager{ehm_dal::file_io::DatabaseFileManager()};
+db_manager.read("C:\\Program Files (x86)\\Steam\\steamapps\\common\\Eastside Hockey Manager\\data\\database\\database.db");
 
 // The following code will open and process a saved game
-auto sav{ehm_dal::SavedGame()};
-sav.read("C:\\Users\\archibalduk\\Documents\\Sports Interactive\\EHM\\games\\Test.sav");
+auto sav_manager{ehm_dal::file_io::SavedGameFileManager()};
+sav_manager.read("C:\\Users\\archibalduk\\Documents\\Sports Interactive\\EHM\\games\\Test.sav");
 ```
 
 EHM DAL's database table classes inherit from [QAbstractTableModel](https://doc.qt.io/qt-6/qabstracttablemodel.html) and are therefore compatible [Qt's model/view architecture](https://doc.qt.io/qt-6/model-view-programming.html). This means that database tables can be easily assigned to Qt's view widgets such as [QTableView](https://doc.qt.io/qt-6/qtableview.html).
@@ -35,7 +35,7 @@ Data can be accessed using [QModelIndex](https://doc.qt.io/qt-6/qmodelindex.html
 3. Few details of EHM saved game tables are known and will therefore require the user to figure out the structure and implement their own code.
 
 ## System Requirements
-* [Qt 6.7.1](https://www.qt.io/download-open-source) (or higher) (msvc 2019 build or higher)
+* [Qt 6.7.2](https://www.qt.io/download-open-source) (or higher) (msvc 2019 build or higher)
 * [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/) or [Microsoft Visual Studio Build Tools 2022](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)
 
 ## Author

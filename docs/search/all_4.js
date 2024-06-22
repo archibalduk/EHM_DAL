@@ -8,11 +8,12 @@ var searchData=
   ['enum_5fversion_5fflags_5',['ENUM_VERSION_FLAGS',['../classehm__dal_1_1database_1_1_database_version.html#aeb4bcef6e023a7604657b193ac9baa9e',1,'ehm_dal::database::DatabaseVersion']]],
   ['estimatedbytesperrow_6',['estimatedBytesPerRow',['../classehm__dal_1_1saved__game_1_1_saved_game_sub_file.html#a6873aae3ca2c16ebd16df4de37af2a72',1,'ehm_dal::saved_game::SavedGameSubFile']]],
   ['estimatedrowcount_7',['estimatedRowCount',['../classehm__dal_1_1saved__game_1_1_saved_game_sub_file.html#a026a9687737980a38b1ea8578c2193fe',1,'ehm_dal::saved_game::SavedGameSubFile']]],
-  ['extrarule_8',['ExtraRule',['../classehm__dal_1_1ehm__extra__rules_1_1_extra_rule.html',1,'ehm_dal::ehm_extra_rules']]],
-  ['extraruledata_9',['ExtraRuleData',['../classehm__dal_1_1ehm__extra__rules_1_1_extra_rule_data.html',1,'ehm_dal::ehm_extra_rules']]],
-  ['integralnumber_10',['IntegralNumber',['../conceptehm__dal_1_1schema_1_1_integral_number.html',1,'ehm_dal::schema']]],
-  ['number_11',['Number',['../conceptehm__dal_1_1data__types_1_1_number.html',1,'ehm_dal::data_types']]],
-  ['saved_5fgame_12',['saved_game',['../namespaceehm__dal_1_1saved__game.html',1,'ehm_dal']]],
-  ['short_13',['Short',['../conceptehm__dal_1_1data__types_1_1_short.html',1,'ehm_dal::data_types']]],
-  ['tables_14',['tables',['../namespaceehm__dal_1_1tables.html',1,'ehm_dal']]]
+  ['exportpath_8',['exportPath',['../classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#ad3ec8823d95deeea1fc00b5f01523979',1,'ehm_dal::spreadsheet::Spreadsheet']]],
+  ['extrarule_9',['ExtraRule',['../classehm__dal_1_1ehm__extra__rules_1_1_extra_rule.html',1,'ehm_dal::ehm_extra_rules']]],
+  ['extraruledata_10',['ExtraRuleData',['../classehm__dal_1_1ehm__extra__rules_1_1_extra_rule_data.html',1,'ehm_dal::ehm_extra_rules']]],
+  ['integralnumber_11',['IntegralNumber',['../conceptehm__dal_1_1schema_1_1_integral_number.html',1,'ehm_dal::schema']]],
+  ['number_12',['Number',['../conceptehm__dal_1_1data__types_1_1_number.html',1,'ehm_dal::data_types']]],
+  ['saved_5fgame_13',['saved_game',['../namespaceehm__dal_1_1saved__game.html',1,'ehm_dal']]],
+  ['short_14',['Short',['../conceptehm__dal_1_1data__types_1_1_short.html',1,'ehm_dal::data_types']]],
+  ['tables_15',['tables',['../namespaceehm__dal_1_1tables.html',1,'ehm_dal']]]
 ];

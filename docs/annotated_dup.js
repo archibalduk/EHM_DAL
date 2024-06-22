@@ -64,7 +64,8 @@ var annotated_dup =
       ] ],
       [ "file_io", null, [
         [ "AbstractFileManager", "classehm__dal_1_1file__io_1_1_abstract_file_manager.html", "classehm__dal_1_1file__io_1_1_abstract_file_manager" ],
-        [ "DatabaseFileManager", "classehm__dal_1_1file__io_1_1_database_file_manager.html", "classehm__dal_1_1file__io_1_1_database_file_manager" ]
+        [ "DatabaseFileManager", "classehm__dal_1_1file__io_1_1_database_file_manager.html", "classehm__dal_1_1file__io_1_1_database_file_manager" ],
+        [ "SavedGameFileManager", "classehm__dal_1_1file__io_1_1_saved_game_file_manager.html", "classehm__dal_1_1file__io_1_1_saved_game_file_manager" ]
       ] ],
       [ "flags", null, [
         [ "Flag", "classehm__dal_1_1flags_1_1_flag.html", null ],

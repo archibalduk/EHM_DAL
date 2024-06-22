@@ -113,25 +113,29 @@ $(document).ready(function(){initNavTree('saved__game_8h_source.html',''); initR
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#a08b047bbf3ecb95f8aac9e6a93044e65">   26</a></span>    <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#a08b047bbf3ecb95f8aac9e6a93044e65">SavedGame</a>();</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#aa43dfcf7aae0a5c538b7a8ecd151eb3a">   30</a></span>    <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#aa43dfcf7aae0a5c538b7a8ecd151eb3a">~SavedGame</a>();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">// File i/o</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582">   38</a></span><span class="comment"></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582">read</a>(<span class="keyword">const</span> QString &amp;file_path);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">// Get data</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc">   45</a></span><span class="comment"></span>    <span class="keyword">static</span> std::shared_ptr&lt;ehm_dal::saved_game::SavedGameData&gt; <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc">data</a>();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">static</span> std::shared_ptr&lt;ehm_dal::saved_game::SavedGameData&gt; data_;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">// Initialisation</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> init();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>} <span class="comment">// namespace ehm_dal</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">// Close saved game</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#a6e6873e437990371b3d6c493f73e12f0">   36</a></span><span class="comment"></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#a6e6873e437990371b3d6c493f73e12f0">clearAll</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// File i/o</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582">   44</a></span><span class="comment"></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582">read</a>(<span class="keyword">const</span> QString &amp;file_path);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// Get data</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc">   51</a></span><span class="comment"></span>    <span class="keyword">static</span> std::shared_ptr&lt;ehm_dal::saved_game::SavedGameData&gt; <a class="code hl_function" href="classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc">data</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">static</span> std::shared_ptr&lt;ehm_dal::saved_game::SavedGameData&gt; data_;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// Initialisation</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> init();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>} <span class="comment">// namespace ehm_dal</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="ttc" id="aclassehm__dal_1_1_saved_game_html"><div class="ttname"><a href="classehm__dal_1_1_saved_game.html">ehm_dal::SavedGame</a></div><div class="ttdoc">The SavedGame class parses uncompressed EHM .sav saved games.</div><div class="ttdef"><b>Definition:</b> saved_game.h:21</div></div>
 <div class="ttc" id="aclassehm__dal_1_1_saved_game_html_a08b047bbf3ecb95f8aac9e6a93044e65"><div class="ttname"><a href="classehm__dal_1_1_saved_game.html#a08b047bbf3ecb95f8aac9e6a93044e65">ehm_dal::SavedGame::SavedGame</a></div><div class="ttdeci">SavedGame()</div><div class="ttdoc">Default constructor.</div></div>
 <div class="ttc" id="aclassehm__dal_1_1_saved_game_html_a155a1f76185f19fc60cc50fbb9451582"><div class="ttname"><a href="classehm__dal_1_1_saved_game.html#a155a1f76185f19fc60cc50fbb9451582">ehm_dal::SavedGame::read</a></div><div class="ttdeci">bool read(const QString &amp;file_path)</div><div class="ttdoc">Reads the .sav file at file_path and parses the saved game and the Database within.</div></div>
+<div class="ttc" id="aclassehm__dal_1_1_saved_game_html_a6e6873e437990371b3d6c493f73e12f0"><div class="ttname"><a href="classehm__dal_1_1_saved_game.html#a6e6873e437990371b3d6c493f73e12f0">ehm_dal::SavedGame::clearAll</a></div><div class="ttdeci">void clearAll()</div><div class="ttdoc">Clear all of the saved game tables.</div></div>
 <div class="ttc" id="aclassehm__dal_1_1_saved_game_html_a8b9b7d58e754b8dfc81d4989018d5dfc"><div class="ttname"><a href="classehm__dal_1_1_saved_game.html#a8b9b7d58e754b8dfc81d4989018d5dfc">ehm_dal::SavedGame::data</a></div><div class="ttdeci">static std::shared_ptr&lt; ehm_dal::saved_game::SavedGameData &gt; data()</div><div class="ttdoc">Returns the saved game data comprising saved game sub-files.</div></div>
 <div class="ttc" id="aclassehm__dal_1_1_saved_game_html_aa43dfcf7aae0a5c538b7a8ecd151eb3a"><div class="ttname"><a href="classehm__dal_1_1_saved_game.html#aa43dfcf7aae0a5c538b7a8ecd151eb3a">ehm_dal::SavedGame::~SavedGame</a></div><div class="ttdeci">~SavedGame()</div><div class="ttdoc">Default destructor.</div></div>
 <div class="ttc" id="anamespaceehm__dal_1_1saved__game_html"><div class="ttname"><a href="namespaceehm__dal_1_1saved__game.html">ehm_dal::saved_game</a></div><div class="ttdoc">namespace ehm_dal::saved_game</div><div class="ttdef"><b>Definition:</b> saved_game_data.h:13</div></div>
