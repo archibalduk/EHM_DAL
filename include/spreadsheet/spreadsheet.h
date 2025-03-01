@@ -210,6 +210,30 @@ public:
      */
     inline void addHeaderPrefix(const QVariant &data) { prefix_header_data_.push_back(data); }
 
+    // Date format
+    /*!
+     * \brief The DateFormat enum represents the date format used when returning cell data.
+     */
+    enum class DateFormat {
+        DateMonthYear, /*!< DD-MM-YYYY */
+        MonthDateYear, /*!< MM-DD-YYYY */
+        YearMonthDate  /*!< YYYY-MM-DD */
+    };
+
+    /*!
+     * \brief Returns the current date format used when returning cell data.
+     */
+    static DateFormat dateFormat();
+    /*!
+     * \brief Returns the current date format used when returning cell data.
+     */
+    inline static QString dateFormatString() { return date_format_; }
+    /*!
+     * \brief Sets the data format to `date_format` when returning cell data. This can be modified before or after reading spreadsheet data.
+     * \param date_format Selected `DateFormat`
+     */
+    static void setDateFormat(const DateFormat date_format);
+
     // Debugging / diagnostics
     /*!
      * \brief Prints various diagnostic data to the console.
@@ -230,6 +254,10 @@ public:
      * \return the file type
      */
     QString fileType() const;
+    /*!
+     * \brief Returns the file path
+     */
+    inline QString folderPath() const { return path_; }
     /*!
      * \brief Returns the identifier text string located at the top left cell (i.e. Cell A1).
      */
@@ -331,16 +359,16 @@ public:
 
     // Get data - cells
     /*!
-     * \brief Returns the data at located at `row` and `col`.
+     * \brief Returns the data located at `row` and `col`.
      * \param row Row index
      * \param col Column index
      */
-    QVariant cell(const qint32 row, const qint32 col) const;
+    QVariant cell(const qint32 row, const qint32 col, const bool return_as_date = false) const;
     /*!
-     * \brief Returns the data for the chosen number of columns commencing from `row` and `col`.
+     * \brief Returns the cell data as a QDate located at `row` and `col`.
      * \param row Row index
-     * \param col First column index
-     * \param col_count Number of columns
+     * \param col Column index
+     * \param return_as_date `True` = return the value as a date
      */
     std::span<const QVariant> cells(const qint32 row,
                                     const qint32 col,
@@ -450,6 +478,12 @@ private:
     // Column data
     std::vector<qint32> columnList(const qint32 column_count) const;
 
+    // Convert value
+    QDate toDate(const QVariant &value) const;
+
+    // Date format
+    static QString date_format_;
+
     // File data
     quint8 file_extension_;
     QString file_name_;
@@ -460,11 +494,7 @@ private:
     static QString filterText(const qint32 type);
 
     // File extensions (members)
-    enum ENUM_FILE_EXTENSIONS {
-        CSV,
-        XLSX,
-        FILE_EXTENSION_COUNT
-    };
+    enum ENUM_FILE_EXTENSIONS { CSV, XLSX, FILE_EXTENSION_COUNT };
 
     // Header
     qint32 header_count_{2};

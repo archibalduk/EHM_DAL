@@ -14,19 +14,20 @@ public:
     // Constructor
     Settings();
 
+    // File i/o
+    void writeAll() const;
+
     // Get data
     static bool debugMode();
     QVariant value(const QString &key, const QVariant &default_value = QVariant());
-
-    // Registry i/o
-    void writeAll() const;
 
     // Set data
     void remove(const QString &key);
     void setValue(const QString &key, const QVariant &value);
 
 private:
-    // Registry i/o
+    // File i/o
+    static const QString file_name_;
     QVariant read(const QString &key, const QVariant &default_value = QVariant()) const;
 
     // Settings cache

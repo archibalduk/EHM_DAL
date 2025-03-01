@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EHM DAL<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">EHM DAL<span id="projectnumber">&#160;0.2.3</span>
    </div>
    <div id="projectbrief">Data abstraction layer for Eastside Hockey Manager</div>
   </td>
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('classehm__dal_1_1spreadsheet_1_1_sprea
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classehm__dal_1_1spreadsheet_1_1_spreadsheet-members.html">List of all members</a>  </div>
@@ -99,6 +100,15 @@ $(document).ready(function(){initNavTree('classehm__dal_1_1spreadsheet_1_1_sprea
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a862c96326626883c27b1ee942bace3f9"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9">DateFormat</a> { <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9a14648425bd109c3e8549b2a96e4c1b55">DateMonthYear</a>
+, <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9a086bdeac5b182a475309eea669783079">MonthDateYear</a>
+, <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9abb72ba891bbfd819b64b13ac7530bbdc">YearMonthDate</a>
+ }</td></tr>
+<tr class="memdesc:a862c96326626883c27b1ee942bace3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The DateFormat enum represents the date format used when returning cell data.  <a href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9">More...</a><br /></td></tr>
+<tr class="separator:a862c96326626883c27b1ee942bace3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7dcd6d2086ea964e58d5d5a50a2885f"><td class="memItemLeft" align="right" valign="top"><a id="ad7dcd6d2086ea964e58d5d5a50a2885f" name="ad7dcd6d2086ea964e58d5d5a50a2885f"></a>
@@ -206,6 +216,10 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>fileName</b> ()</t
 <tr class="memitem:aedb4a30f7cb4ab627d606f1a44f26779"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aedb4a30f7cb4ab627d606f1a44f26779">fileType</a> () const</td></tr>
 <tr class="memdesc:aedb4a30f7cb4ab627d606f1a44f26779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file type of the output spreadsheet.  <br /></td></tr>
 <tr class="separator:aedb4a30f7cb4ab627d606f1a44f26779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a1d4b2a5fbe6c593cb9cdec21e59ef5"><td class="memItemLeft" align="right" valign="top"><a id="a8a1d4b2a5fbe6c593cb9cdec21e59ef5" name="a8a1d4b2a5fbe6c593cb9cdec21e59ef5"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>folderPath</b> () const</td></tr>
+<tr class="memdesc:a8a1d4b2a5fbe6c593cb9cdec21e59ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the file path. <br /></td></tr>
+<tr class="separator:a8a1d4b2a5fbe6c593cb9cdec21e59ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bcf058f06086df9f9785aa8e6123104"><td class="memItemLeft" align="right" valign="top"><a id="a1bcf058f06086df9f9785aa8e6123104" name="a1bcf058f06086df9f9785aa8e6123104"></a>
 QString&#160;</td><td class="memItemRight" valign="bottom"><b>identifier</b> ()</td></tr>
 <tr class="memdesc:a1bcf058f06086df9f9785aa8e6123104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the identifier text string located at the top left cell (i.e. Cell A1). <br /></td></tr>
@@ -243,11 +257,11 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>identifier</b> ()<
 <tr class="memitem:a6877aa5c090853ab977b5e346f0e377d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a6877aa5c090853ab977b5e346f0e377d">showSaveDialog</a> (<a class="el" href="classehm__dal_1_1settings_1_1_folder_path.html">settings::FolderPath</a> &amp;path)</td></tr>
 <tr class="memdesc:a6877aa5c090853ab977b5e346f0e377d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a dialog window allowing the user to save the spreadsheet.  <br /></td></tr>
 <tr class="separator:a6877aa5c090853ab977b5e346f0e377d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37a871b8ad1b0bb89a5f2dde41ac83a6"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a37a871b8ad1b0bb89a5f2dde41ac83a6">cell</a> (const qint32 <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aaf816e56b59790686f0f03f5faa84d5a">row</a>, const qint32 col) const</td></tr>
-<tr class="memdesc:a37a871b8ad1b0bb89a5f2dde41ac83a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the data at located at <code>row</code> and <code>col</code>.  <br /></td></tr>
-<tr class="separator:a37a871b8ad1b0bb89a5f2dde41ac83a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa236ef02c17f84fb9220d828bb8fe596"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aa236ef02c17f84fb9220d828bb8fe596">cell</a> (const qint32 <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aaf816e56b59790686f0f03f5faa84d5a">row</a>, const qint32 col, const bool return_as_date=false) const</td></tr>
+<tr class="memdesc:aa236ef02c17f84fb9220d828bb8fe596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the data located at <code>row</code> and <code>col</code>.  <br /></td></tr>
+<tr class="separator:aa236ef02c17f84fb9220d828bb8fe596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108b8f50b8d53d0984acc6b1c2ddee5e"><td class="memItemLeft" align="right" valign="top">std::span&lt; const QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a108b8f50b8d53d0984acc6b1c2ddee5e">cells</a> (const qint32 <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aaf816e56b59790686f0f03f5faa84d5a">row</a>, const qint32 col, const qint32 col_count) const</td></tr>
-<tr class="memdesc:a108b8f50b8d53d0984acc6b1c2ddee5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the data for the chosen number of columns commencing from <code>row</code> and <code>col</code>.  <br /></td></tr>
+<tr class="memdesc:a108b8f50b8d53d0984acc6b1c2ddee5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cell data as a QDate located at <code>row</code> and <code>col</code>.  <br /></td></tr>
 <tr class="separator:a108b8f50b8d53d0984acc6b1c2ddee5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74cbcb0934ea4c674a03658832651a4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a74cbcb0934ea4c674a03658832651a4f">columnContainsData</a> (const qint32 column) const</td></tr>
 <tr class="memdesc:a74cbcb0934ea4c674a03658832651a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether a column contains any data.  <br /></td></tr>
@@ -305,6 +319,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addNewRow</b> ()</td>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad24d520354fdf3a233baa7ccd8699876"><td class="memItemLeft" align="right" valign="top"><a id="ad24d520354fdf3a233baa7ccd8699876" name="ad24d520354fdf3a233baa7ccd8699876"></a>
+static <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9">DateFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dateFormat</b> ()</td></tr>
+<tr class="memdesc:ad24d520354fdf3a233baa7ccd8699876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current date format used when returning cell data. <br /></td></tr>
+<tr class="separator:ad24d520354fdf3a233baa7ccd8699876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6e052519d5445fb1e44f8f2d6dd7e4"><td class="memItemLeft" align="right" valign="top"><a id="a4f6e052519d5445fb1e44f8f2d6dd7e4" name="a4f6e052519d5445fb1e44f8f2d6dd7e4"></a>
+static QString&#160;</td><td class="memItemRight" valign="bottom"><b>dateFormatString</b> ()</td></tr>
+<tr class="memdesc:a4f6e052519d5445fb1e44f8f2d6dd7e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current date format used when returning cell data. <br /></td></tr>
+<tr class="separator:a4f6e052519d5445fb1e44f8f2d6dd7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47688043ae47128d45c6cc52cd7a2fd9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a47688043ae47128d45c6cc52cd7a2fd9">setDateFormat</a> (const <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9">DateFormat</a> date_format)</td></tr>
+<tr class="memdesc:a47688043ae47128d45c6cc52cd7a2fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data format to <code>date_format</code> when returning cell data. This can be modified before or after reading spreadsheet data.  <br /></td></tr>
+<tr class="separator:a47688043ae47128d45c6cc52cd7a2fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa43792574fe22a3944bf6558cec81fa5"><td class="memItemLeft" align="right" valign="top"><a id="aa43792574fe22a3944bf6558cec81fa5" name="aa43792574fe22a3944bf6558cec81fa5"></a>
 static qint32&#160;</td><td class="memItemRight" valign="bottom"><b>defaultFileExtension</b> ()</td></tr>
 <tr class="memdesc:aa43792574fe22a3944bf6558cec81fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default file extension. <br /></td></tr>
@@ -328,6 +353,39 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>importPath<
 <tr class="memdesc:a7826eeae47dd16ff2a43bd419d7ded8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default file path used for importing data. <br /></td></tr>
 <tr class="separator:a7826eeae47dd16ff2a43bd419d7ded8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a862c96326626883c27b1ee942bace3f9" name="a862c96326626883c27b1ee942bace3f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862c96326626883c27b1ee942bace3f9">&#9670;&#160;</a></span>DateFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9">ehm_dal::spreadsheet::Spreadsheet::DateFormat</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The DateFormat enum represents the date format used when returning cell data. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a862c96326626883c27b1ee942bace3f9a14648425bd109c3e8549b2a96e4c1b55" name="a862c96326626883c27b1ee942bace3f9a14648425bd109c3e8549b2a96e4c1b55"></a>DateMonthYear&#160;</td><td class="fielddoc"><p>DD-MM-YYYY </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a862c96326626883c27b1ee942bace3f9a086bdeac5b182a475309eea669783079" name="a862c96326626883c27b1ee942bace3f9a086bdeac5b182a475309eea669783079"></a>MonthDateYear&#160;</td><td class="fielddoc"><p>MM-DD-YYYY </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a862c96326626883c27b1ee942bace3f9abb72ba891bbfd819b64b13ac7530bbdc" name="a862c96326626883c27b1ee942bace3f9abb72ba891bbfd819b64b13ac7530bbdc"></a>YearMonthDate&#160;</td><td class="fielddoc"><p>YYYY-MM-DD </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1870a89ddfadf6fee555eace128e2608" name="a1870a89ddfadf6fee555eace128e2608"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1870a89ddfadf6fee555eace128e2608">&#9670;&#160;</a></span>add() <span class="overload">[1/12]</span></h2>
@@ -1086,8 +1144,8 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>importPath<
 
 </div>
 </div>
-<a id="a37a871b8ad1b0bb89a5f2dde41ac83a6" name="a37a871b8ad1b0bb89a5f2dde41ac83a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37a871b8ad1b0bb89a5f2dde41ac83a6">&#9670;&#160;</a></span>cell()</h2>
+<a id="aa236ef02c17f84fb9220d828bb8fe596" name="aa236ef02c17f84fb9220d828bb8fe596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa236ef02c17f84fb9220d828bb8fe596">&#9670;&#160;</a></span>cell()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1102,7 +1160,13 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>importPath<
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const qint32&#160;</td>
-          <td class="paramname"><em>col</em>&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>return_as_date</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1112,7 +1176,7 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>importPath<
       </table>
 </div><div class="memdoc">
 
-<p>Returns the data at located at <code>row</code> and <code>col</code>. </p>
+<p>Returns the data located at <code>row</code> and <code>col</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">row</td><td>Row index </td></tr>
@@ -1155,12 +1219,12 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>importPath<
       </table>
 </div><div class="memdoc">
 
-<p>Returns the data for the chosen number of columns commencing from <code>row</code> and <code>col</code>. </p>
+<p>Returns the cell data as a QDate located at <code>row</code> and <code>col</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">row</td><td>Row index </td></tr>
-    <tr><td class="paramname">col</td><td>First column index </td></tr>
-    <tr><td class="paramname">col_count</td><td>Number of columns </td></tr>
+    <tr><td class="paramname">col</td><td>Column index </td></tr>
+    <tr><td class="paramname">return_as_date</td><td><code>True</code> = return the value as a date </td></tr>
   </table>
   </dd>
 </dl>
@@ -1476,6 +1540,40 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>importPath<
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>whether or not the file was successfully saved </dd></dl>
+
+</div>
+</div>
+<a id="a47688043ae47128d45c6cc52cd7a2fd9" name="a47688043ae47128d45c6cc52cd7a2fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47688043ae47128d45c6cc52cd7a2fd9">&#9670;&#160;</a></span>setDateFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ehm_dal::spreadsheet::Spreadsheet::setDateFormat </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9">DateFormat</a>&#160;</td>
+          <td class="paramname"><em>date_format</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the data format to <code>date_format</code> when returning cell data. This can be modified before or after reading spreadsheet data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date_format</td><td>Selected <code>DateFormat</code> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

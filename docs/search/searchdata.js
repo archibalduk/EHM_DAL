@@ -4,8 +4,8 @@ var indexSectionsWithContent =
   1: "acdefghinoprstwy",
   2: "e",
   3: "acdefghimnoprstuvwy~",
-  4: "cept",
-  5: "abcdefghimnoprstuv",
+  4: "cdept",
+  5: "abcdefghimnoprstuvy",
   6: "e"
 };
 

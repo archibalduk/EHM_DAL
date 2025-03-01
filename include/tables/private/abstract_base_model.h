@@ -5,6 +5,7 @@
 
 // Qt headers
 #include <QAbstractTableModel>
+#include <QSortFilterProxyModel>
 
 namespace ehm_dal::tables {
 
@@ -56,6 +57,9 @@ public:
     QVariant headerData(qint32 section,
                         Qt::Orientation orientation,
                         qint32 role = Qt::DisplayRole) const override;
+
+    // Proxy
+    std::unique_ptr<QSortFilterProxyModel> proxy();
 
     // Table model type
     enum class AbstractTableModelType : quint8 {

@@ -21,5 +21,6 @@ var searchData=
   ['minus_5f6_18',['MINUS_6',['../classehm__dal_1_1data__types_1_1_potential_ability.html#a243549de8fb4ca80032dc56fbc303a09ac1c0b29041dcf9bd586ea850022ca6cd',1,'ehm_dal::data_types::PotentialAbility']]],
   ['minus_5f7_19',['MINUS_7',['../classehm__dal_1_1data__types_1_1_potential_ability.html#a243549de8fb4ca80032dc56fbc303a09a8789221ea37a900039af651e8f447c5b',1,'ehm_dal::data_types::PotentialAbility']]],
   ['minus_5f8_20',['MINUS_8',['../classehm__dal_1_1data__types_1_1_potential_ability.html#a243549de8fb4ca80032dc56fbc303a09a5ede643d2c639772938fb1b4f4fbf400',1,'ehm_dal::data_types::PotentialAbility']]],
-  ['minus_5f9_21',['MINUS_9',['../classehm__dal_1_1data__types_1_1_potential_ability.html#a243549de8fb4ca80032dc56fbc303a09a82152a332cc45d8ad92a9d3e6782c404',1,'ehm_dal::data_types::PotentialAbility']]]
+  ['minus_5f9_21',['MINUS_9',['../classehm__dal_1_1data__types_1_1_potential_ability.html#a243549de8fb4ca80032dc56fbc303a09a82152a332cc45d8ad92a9d3e6782c404',1,'ehm_dal::data_types::PotentialAbility']]],
+  ['monthdateyear_22',['MonthDateYear',['../classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9a086bdeac5b182a475309eea669783079',1,'ehm_dal::spreadsheet::Spreadsheet']]]
 ];

@@ -1,5 +1,10 @@
 var classehm__dal_1_1spreadsheet_1_1_spreadsheet =
 [
+    [ "DateFormat", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9", [
+      [ "DateMonthYear", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9a14648425bd109c3e8549b2a96e4c1b55", null ],
+      [ "MonthDateYear", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9a086bdeac5b182a475309eea669783079", null ],
+      [ "YearMonthDate", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a862c96326626883c27b1ee942bace3f9abb72ba891bbfd819b64b13ac7530bbdc", null ]
+    ] ],
     [ "add", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a1870a89ddfadf6fee555eace128e2608", null ],
     [ "add", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#ad654fe9d88b43b04c971a78f6a59d26a", null ],
     [ "add", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a562521337a397e1b7624fd97745fb427", null ],
@@ -25,10 +30,12 @@ var classehm__dal_1_1spreadsheet_1_1_spreadsheet =
     [ "addNewRow", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#abf4bdbc536f7cdbe8b4903584a85d7a4", null ],
     [ "addPrefix", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a6a2d33ec32e82dbeb70f06e18addfa95", null ],
     [ "addPrefix", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a656f8750a70ef9672ac62000cdb229ff", null ],
-    [ "cell", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a37a871b8ad1b0bb89a5f2dde41ac83a6", null ],
+    [ "cell", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aa236ef02c17f84fb9220d828bb8fe596", null ],
     [ "cells", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a108b8f50b8d53d0984acc6b1c2ddee5e", null ],
     [ "columnContainsData", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a74cbcb0934ea4c674a03658832651a4f", null ],
     [ "columnCount", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a4ab3046be7e56645c29d8f896c8c7c41", null ],
+    [ "dateFormat", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#ad24d520354fdf3a233baa7ccd8699876", null ],
+    [ "dateFormatString", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a4f6e052519d5445fb1e44f8f2d6dd7e4", null ],
     [ "defaultFileExtension", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aa43792574fe22a3944bf6558cec81fa5", null ],
     [ "exportPath", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#ad3ec8823d95deeea1fc00b5f01523979", null ],
     [ "file", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a25c16bb23cca09f307dee41fe737305c", null ],
@@ -36,6 +43,7 @@ var classehm__dal_1_1spreadsheet_1_1_spreadsheet =
     [ "fileExtensionListAsStringList", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a59a0b37b9fce42b949974519eba1cc65", null ],
     [ "fileName", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a32450ee50742a818911d377084f39d41", null ],
     [ "fileType", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aedb4a30f7cb4ab627d606f1a44f26779", null ],
+    [ "folderPath", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a8a1d4b2a5fbe6c593cb9cdec21e59ef5", null ],
     [ "identifier", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a1bcf058f06086df9f9785aa8e6123104", null ],
     [ "importPath", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a7826eeae47dd16ff2a43bd419d7ded8e", null ],
     [ "newSpreadsheet", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#abf2158dbb4aef3d3cf57541d919c030f", null ],
@@ -46,6 +54,7 @@ var classehm__dal_1_1spreadsheet_1_1_spreadsheet =
     [ "row", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#aaf816e56b59790686f0f03f5faa84d5a", null ],
     [ "rowCount", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a09c399aab7c9b758f8541b4a34ad17ba", null ],
     [ "save", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a6f976d76532f0eb547ab4e440a306f15", null ],
+    [ "setDateFormat", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a47688043ae47128d45c6cc52cd7a2fd9", null ],
     [ "setDefaultFileExtension", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a45f06f79bd6509a1efd1cbc9d6133429", null ],
     [ "setFile", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a88b4203ec0d5c202a98e12aef1ede281", null ],
     [ "setHeaderCount", "classehm__dal_1_1spreadsheet_1_1_spreadsheet.html#a95e7e52a13395c4232acbe036da57df2", null ],
